@@ -30,6 +30,9 @@ TARGET_KERNEL_CONFIG := cyanogenmod_ef63_defconfig
 # ReleaseTools
 TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)/releasetools
 
+# Properties
+TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
+
 # Filesystem
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 26534215680
 
