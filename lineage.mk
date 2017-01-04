@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2016 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,13 +18,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ef63 device
 $(call inherit-product, device/pantech/ef63/ef63.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Call the proprietary setup
 $(call inherit-product-if-exists, vendor/pantech/ef63/ef63-vendor.mk)
 
-PRODUCT_NAME := cm_ef63
+PRODUCT_NAME := lineage_ef63
 PRODUCT_DEVICE := ef63
 PRODUCT_MANUFACTURER := PANTECH
 PRODUCT_MODEL := IM-A910
