@@ -27,7 +27,7 @@ $(call inherit-product-if-exists, vendor/pantech/ef63/ef63-vendor.mk)
 PRODUCT_NAME := lineage_ef63
 PRODUCT_DEVICE := ef63
 PRODUCT_MANUFACTURER := PANTECH
-PRODUCT_MODEL := IM-A910
+PRODUCT_MODEL := VEGA IRON 2
 
 PRODUCT_BRAND := PANTECH
 TARGET_VENDOR := PANTECH
