@@ -1,6 +1,5 @@
 # Camera
-lib/hw/camera.msm8974.so
-lib/libmmcamera_interface.so
+lib/hw/camera.msm8974.so:vendor/lib/hw/camera.msm8974.so
 lib/libmmcamera_rohm_eeprom.so
 lib/libmmcamera_rumba_sa_eeprom.so
 lib/libmmcamera_s5k6b2yx.so
@@ -46,5 +45,15 @@ vendor/lib/libmmcamera2_vpe_module.so
 vendor/lib/liboemcamera.so
 
 # Sensors
-bin/sensors.qcom
+bin/sensors.qcom:vendor/bin/sensors.qcom
 lib/libsnsutils.so
+
+#firmware
+etc/firmware/venus.b00:vendor/firmware/venus.b00
+etc/firmware/venus.b01:vendor/firmware/venus.b01
+etc/firmware/venus.b02:vendor/firmware/venus.b02
+etc/firmware/venus.b03:vendor/firmware/venus.b03
+etc/firmware/venus.b04:vendor/firmware/venus.b04
+etc/firmware/venus.mbn:vendor/firmware/venus.mbn
+etc/firmware/venus.mdt:vendor/firmware/venus.mdt
+

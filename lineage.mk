@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ef63 device
 $(call inherit-product, device/pantech/ef63/ef63.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Call the proprietary setup
@@ -36,3 +36,8 @@ TARGET_VENDOR_DEVICE_NAME := ef63
 
 # Enable SU
 WITH_SU := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="ef63l-user 6.0.1 MHC19Q ZNH2KAS1KN release-keys" 
+
+BUILD_FINGERPRINT := pantech/ef63l:6.0.1/MHC19Q/ZNH2KAS1KN:user/release-keys
