@@ -35,7 +35,7 @@ TARGET_VENDOR_PRODUCT_NAME := ef63
 TARGET_VENDOR_DEVICE_NAME := ef63
 
 # Unofficial build ID
-TARGET_UNOFFICIAL_BUILD_ID := ChauTruongThinh_Beta1
+TARGET_UNOFFICIAL_BUILD_ID := ChauTruongThinh_Beta4
 
 # Enable SU
 WITH_SU := true
