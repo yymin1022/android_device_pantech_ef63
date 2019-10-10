@@ -16,5 +16,5 @@
 
 def FullOTA_InstallEnd(info):
     info.script.Mount("/system");
-    info.script.AppendExtra('assert(run_program("/system/bin/device_check.sh") == 0);');
+    info.script.AppendExtra('assert(run_program("/system/system/bin/device_check.sh") == 0);');
     info.script.Unmount("/system");
