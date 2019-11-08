@@ -42,3 +42,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := pantech/ef63:6.0.1/MHC19Q/ZNH2KAS1KN:user/release-keys
 
+# Unofficial build ID
+TARGET_UNOFFICIAL_BUILD_ID := beta1
